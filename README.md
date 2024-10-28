@@ -9,7 +9,7 @@ In contrast to prior studies focusing on sentence-by-sentence translation, we de
 
 ### Key Contributions
 
-- **LLM-as-a-Judge Paradigm**: We use tailored prompts for GPT-4 to assess document-level translation, capturing aspects of fluency, coherence, and accuracy that traditional metrics overlook.
+- **LLM-as-a-Judge Paradigm**: We design tailored prompts for GPT-4 to assess document-level translation, capturing aspects of fluency, coherence, and accuracy that traditional metrics overlook.
 - **Entire Document Translation V.S. Sentence-merged Translation**: Our experiments show that translating entire documents in one pass yields more coherent and accurate results than independent sentences translations and then merged, even without fine-tuning for docMT.
 - **Evaluation Insights**: We recommend against using BLEU scores for docMT, as they fail to capture discourse-level coherence and can often produce misleading results, particularly in document-level evaluations.
 
