@@ -1,0 +1,1 @@
+{"bleu": 25.79290626776779, "precisions": [72.26179018286814, 38.358625557444896, 17.684804928131417, 9.0287804408509], "brevity_penalty": 1.0, "length_ratio": 1.084437950109592, "translation_length": 31170, "reference_length": 28743}
