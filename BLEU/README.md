@@ -48,8 +48,6 @@ This allows us to calculate the average BLEU score (AvgBLEU) for the entire data
 
 For completeness, we also report results using the standard d-BLEU metric in [Appendix B: d-BLEU Performance].
 
----
-
 <p align="center">
     <img src="AvgBLEU.png" alt="AvgBLEU Performance" width="45%">
 </p>
