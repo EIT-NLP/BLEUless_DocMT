@@ -36,3 +36,19 @@ To gain a deeper understanding of how these metrics correlate with each other, w
 <p align="center">
     <img src="correlation_heatmap.jpg" alt="Correlation Heatmap" width="45%">
 </p>
+
+---
+
+### File Description for GPT-4 Evaluations
+
+The following files contain GPT-4's evaluations for LLMs' document-level translation quality, categorized into various metrics:
+
+- `{model_name}-{lang_pair}_{STx/DOC}_acc.jsonl`:  
+  Contains GPT-4's evaluation results for **Content Errors (CE)** in the document-level translation.
+
+- `{model_name}-{lang_pair}_{STx/DOC}_cohesion.jsonl`:  
+  Contains GPT-4's evaluation results for **Lexical Cohesion Errors (LE)** and **Grammatical Cohesion Errors (GE)** in the document-level translation.
+
+- `{model_name}-{lang_pair}_{STx/DOC}_flu.jsonl`:  
+  Contains GPT-4's evaluation results for **Fluency** in the document-level translation.
+
