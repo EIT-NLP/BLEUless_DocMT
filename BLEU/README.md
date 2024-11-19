@@ -61,3 +61,14 @@ These two tables present the comparison between the two document-level translati
 <p align="center">
     <img src="d-BLEU.png" alt="d-BLEU Performance" width="45%">
 </p>
+
+---
+
+### File Description 
+The following is file description of the model output file:
+
+- `prediction_{lang_pair}.txt`: model dialog record.
+- `prediction_{lang_pair}.txt.hyp`: model reply file to store translations.
+- `{lang_pair}_doc_result.txt`: Document level translation result(if STx then need to combine them) with **AvgBLEU** score.
+- `{lang_pair}_st_result.txt.st2doc.txt`: Document level translation result(if STx then need to combine them) with **AvgBLEU** score.
+- `prediction_{lang_pair}_score.txt`: Document level translation result(if STx then need to combine them) with **d-BLEU** score.
