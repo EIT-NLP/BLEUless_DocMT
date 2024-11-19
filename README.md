@@ -1,19 +1,15 @@
 <div align="center">
 
-
 # Instruction-Tuned LLMs Succeed in Document-Level MT Without Fine-Tuning—But BLEU Turns a Blind Eye
 
-![WMT22](https://aclanthology.org/2022.wmt-1.1/)
+### Resources&Datasets
+[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/pdf/2410.20941) [![WMT22](https://img.shields.io/badge/Dataset-WMT22-blue)](https://aclanthology.org/2022.wmt-1.1/)
 
-![Vicuna-7B](https://huggingface.co/lmsys/vicuna-7b-v1.5)
-![Vicuna-7B-16K](https://huggingface.co/lmsys/vicuna-7b-v1.5-16k)
-![Vicuna-13B](https://huggingface.co/lmsys/vicuna-13b-v1.5)
-![Vicuna-13B-16K](https://huggingface.co/lmsys/vicuna-13b-v1.5-16k)
-![Mistral-7B](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1)
-
-📰 [Paper](https://arxiv.org/pdf/2410.20941)
+### Models
+[![Vicuna-7B](https://img.shields.io/badge/Model-Vicuna--7B-21C2A4)](https://huggingface.co/lmsys/vicuna-7b-v1.5)  [![Vicuna-7B-16K](https://img.shields.io/badge/Model-Vicuna--7B--16K-21C2A4)](https://huggingface.co/lmsys/vicuna-7b-v1.5-16k)  [![Vicuna-13B](https://img.shields.io/badge/Model-Vicuna--13B-21C2A4)](https://huggingface.co/lmsys/vicuna-13b-v1.5)  [![Vicuna-13B-16K](https://img.shields.io/badge/Model-Vicuna--13B--16K-21C2A4)](https://huggingface.co/lmsys/vicuna-13b-v1.5-16k)  [![Mistral-7B](https://img.shields.io/badge/Model-Mistral--7B-21C2A4)](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1)
 
 </div>
+
 
 ## 1. Introduction
 
