@@ -52,6 +52,8 @@ For completeness, we also report results using the standard d-BLEU metric in [Ap
 
 ### Evaluation Results
 
+These two tables present the comparison between the two document-level translation approaches. Generally, STx achieves higher scores than DOC in both **d-BLEU** and **AvgBLEU**, thought the approach of STx with little context. We caution against using BLEU scores for evaluating docMT, as they often provide misleading outcomes, failing to capture the quality of document-level translation.
+
 <p align="center">
     <img src="AvgBLEU.png" alt="AvgBLEU Performance" width="45%">
 </p>
