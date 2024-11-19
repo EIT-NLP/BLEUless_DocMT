@@ -6,7 +6,7 @@ Datasets and Experimental Results in [3 BLEU-based Evaluation].
 
 We use translation benchmarks with document boundary: WMT22(zh-en, en-zh, de-en, en-de)
 
-<img src="" alt="image-20241119145854530" style="zoom: 50%;" />
+<img src="BLEU/data_stat.png" alt="image-20241119145854530" style="zoom: 50%;" />
 
 ### Translation Approaches
 
@@ -29,6 +29,6 @@ We argue that documents are generally independent units, so they should be weigh
 
 Here, \( N \) is the number of documents, and \( Y^{\text{ref}} \) and \( Y^{\text{pred}} \) represent the reference document translations and the predicted translations, respectively. This allows us to calculate the average BLEU score (AvgBLEU) for the entire dataset, providing a comprehensive measure of translation quality. For completeness, we report results using the standard d-BLEU in [Appendix B d-BLEU Performance].
 
-![image-20241119151858660](D:\Python_program\dataset\github_repo_bleuless\GPT4\AvgBLEU.png)
+![image-20241119151858660](BLEU/AvgBLEU.png)
 
-<img src="D:\Python_program\dataset\github_repo_bleuless\GPT4\d-BLEU.png" alt="image-20241119151948194" style="zoom:55%;" />
+<img src="BLEU/AvgBLEU.png/d-BLEU.png" alt="image-20241119151948194" style="zoom:55%;" />
