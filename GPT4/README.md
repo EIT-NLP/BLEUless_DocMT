@@ -14,7 +14,7 @@ We design four (sub) metrics:
 
 All metrics are measured using prompts provided to GPT-4.  
 
-More details about the metrics can be found in **Appendix C: GPT4-as-a-judge Evaluation Prompts** and the prompts are available [here](evaluation_instruction.md).
+More details about the metrics can be found in **Appendix C: GPT4-as-a-judge Evaluation Prompts** and the prompts are available [here](evaluation_instructions.md).
 
 ---
 
@@ -27,11 +27,11 @@ Overall, our approach enables a more detailed evaluation of translation quality 
 More detailed results can be found in **[Appendix D: GPT4-as-a-judge Evaluation Performance]**.
 
 <p align="center">
-    <img src="GPT4.jpg" alt="GPT4 Evaluation Results" width="67%">
+    <img src="GPT4.jpg" alt="GPT4 Evaluation Results" width="45%">
 </p>
 
 To gain a deeper understanding of how these metrics correlate with each other, we compute the **Pearson Correlation Coefficients (PCC)** among the metrics and visualize them. More detailed results can be found in **[Appendix E: Correlation Visualizations]**.
 
 <p align="center">
-    <img src="correlation_heatmap.jpg" alt="Correlation Heatmap" width="67%">
+    <img src="correlation_heatmap.jpg" alt="Correlation Heatmap" width="45%">
 </p>
